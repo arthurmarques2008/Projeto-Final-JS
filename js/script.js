@@ -1,7 +1,7 @@
 const mario = document.querySelector('.mario');
 const tubo = document.querySelector('.tubo');
 const nuvem = document.querySelector('.nuvem');
-const jump = () => {
+const pulo = () => {
     mario.classList.add('pulo');
 
     setTimeout(() => {
@@ -38,5 +38,5 @@ const loop = setInterval(() => {
     }
 }, 10);
 
-document.addEventListener("keydown", jump)
+document.addEventListener("keydown", pulo)
 
