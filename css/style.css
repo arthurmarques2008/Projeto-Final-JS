@@ -28,7 +28,7 @@
 .nuvem{
     width: 550px;
     position: absolute;
-    animation: animacaonuvem 10s infinite linear;
+    animation: animacaonuvem 9s infinite linear;
 
 }
 @keyframes tubo-animacao {
